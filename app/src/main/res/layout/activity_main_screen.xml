@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen"
+    android:background="@color/black">
+
+
+    <TextView
+        android:id="@+id/FilmName"
+        android:layout_width="297dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/capitanMarvel"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="327dp"
+        android:layout_height="396dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/marvel"
+        app:layout_constraintBottom_toTopOf="@+id/absoluteLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FilmName"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <AbsoluteLayout
+        android:id="@+id/absoluteLayout"
+        android:layout_width="406dp"
+        android:layout_height="96dp"
+        android:background="#1C1A19"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="Deprecated">
+
+        <ImageButton
+            android:layout_width="83dp"
+            android:layout_height="47dp"
+            android:layout_x="18dp"
+            android:layout_y="13dp"
+            android:background="@drawable/tv" />
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_x="18dp"
+            android:layout_y="65dp"
+            android:gravity="center"
+            android:text="@string/mainCine"
+            android:textColor="#2B70A8" />
+
+        <ImageButton
+            android:layout_width="83dp"
+            android:layout_height="47dp"
+            android:layout_x="115dp"
+            android:layout_y="13dp"
+            android:background="@drawable/vectorp"
+            android:onClick="perexod2"/>
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_x="115dp"
+            android:layout_y="65dp"
+            android:gravity="center"
+            android:text="@string/hz"
+            android:textColor="#2B70A8" />
+
+        <ImageButton
+            android:layout_width="83dp"
+            android:layout_height="47dp"
+            android:layout_x="220dp"
+            android:layout_y="13dp"
+            android:background="@drawable/star"
+            />
+
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_x="220dp"
+            android:layout_y="65dp"
+            android:gravity="center"
+            android:text="@string/collection"
+            android:textColor="#2B70A8" />
+
+        <ImageButton
+            android:layout_width="83dp"
+            android:layout_height="47dp"
+            android:layout_x="317dp"
+            android:layout_y="13dp"
+            android:background="@drawable/profil" />
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_x="317dp"
+            android:layout_y="65dp"
+            android:gravity="center"
+            android:text="@string/profil"
+            android:textColor="#2B70A8" />
+    </AbsoluteLayout>
+
+
+</android.support.constraint.ConstraintLayout>

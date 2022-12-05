@@ -5,4 +5,9 @@
     <string name="enter_the_password">Enter the password</string>
     <string name="Enter">Войти</string>
     <string name="register">Регистрация</string>
+    <string name="capitanMarvel">Капитан Марвел</string>
+    <string name="mainCine">Главное</string>
+    <string name="hz">Подборка</string>
+    <string name="collection">Коллекция</string>
+    <string name="profil">Профиль</string>
 </resources>
