@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KinopoiskPanov</string>
+    <string name="enter_the_login">Enter the login</string>
+    <string name="world_cinema">World Cinema</string>
+    <string name="enter_the_password">Enter the password</string>
+    <string name="Enter">Войти</string>
+    <string name="register">Регистрация</string>
+</resources>
