@@ -1,9 +1,9 @@
 package com.example.kinopoiskpanov
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 
 class MainScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,7 +12,7 @@ class MainScreen : AppCompatActivity() {
     }
 
     fun perexod2(view: View) {
-        var intent = Intent(this,MainScreen::class.java)
+        var intent = Intent(this,podborka2::class.java)
         startActivity(intent)
     }
 }
